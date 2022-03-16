@@ -1,0 +1,16 @@
+declare var ctx: AudioContext;
+declare type AudBuf = AudioBuffer | null;
+declare type SourceNode = AudioBufferSourceNode | AudioScheduledSourceNode | null;
+declare var currentlyPlaying: SourceNode[];
+declare var buffer: AudBuf;
+declare var source: SourceNode;
+declare var playing: SourceNode;
+declare var making: SourceNode;
+declare var current: SourceNode;
+declare var audLoc: string;
+declare function load(): void;
+declare function grabSource(): AudioBufferSourceNode;
+declare function removeFromPlaying(aSourceNode: SourceNode): void;
+declare function stopAll(): void;
+declare function swapBuffers(): void;
+declare function play(): void;
