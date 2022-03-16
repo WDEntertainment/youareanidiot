@@ -2,7 +2,7 @@
     main.js
     You are an idiot application
     
-    written by William Dixon (to use for pranking my friends, or ya know, your friends)
+    written by WD (to use for pranking my friends, or ya know, your friends)
     Original script: https://www.youareanidiot.cc/scripts/youare.js
     That script didn't obey the original's *surprise* when closing the window
 */
