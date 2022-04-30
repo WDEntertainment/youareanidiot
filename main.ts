@@ -65,7 +65,7 @@ function changeTitle(title:string) {
 	document.title = title;
 }
 
-function openWindow(url:string) {
+async function openWindow(url:string) {
 	var aWindow = window.open(url, "_blank", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
     // @ts-ignore
     aWindow.parentWindow = window;
